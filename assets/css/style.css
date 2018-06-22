@@ -1,0 +1,39 @@
+.container-fluid {
+    width: 85%;
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+#navbar {
+    background: grey;
+    border: 1px solid black;
+    height: 60px;
+    margin: 0.5% 1% 0 1%;
+}
+
+#question-container {
+    background: lightseagreen;
+    border: 1px solid black;
+    height: 150px;
+    margin: 0.5% 1.5% 0.5% 1.5%;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+}
+
+#answer-container {
+    background: mediumaquamarine;
+    border: 1px solid black;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#start-reset {
+    margin: 15px;
+    float: left;
+}
+
+#game-timer {
+    float: right;
+    margin: 15px;
+}
