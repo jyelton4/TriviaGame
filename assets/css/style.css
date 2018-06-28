@@ -14,18 +14,27 @@
 #question-container {
     background: lightseagreen;
     border: 1px solid black;
-    height: 150px;
+    height: 100px;
     margin: 0.5% 1.5% 0.5% 1.5%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding: 25px;
 }
 
 #answer-container {
     background: mediumaquamarine;
     border: 1px solid black;
-    height: 300px;
+    height: 125px;
     margin: 0 auto;
+    font-size: 20px;
+}
+
+#answer-container button,p {
+    margin: 1%;
+}
+
+#answer-container button:hover {
+    font-size: 25px;
 }
 
 #start-reset {
@@ -34,6 +43,14 @@
 }
 
 #game-timer {
+    margin: 15px;
+}
+
+#counters button {
     float: right;
     margin: 15px;
+}
+
+#answer-container {
+    text-align: center;
 }
